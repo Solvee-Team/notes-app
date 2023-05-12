@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+ input,  textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+ button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+ button:hover {
+  background-color: #0056b3;
+}
+
+.note-list {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.note-list .note-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.note-list .note-item:last-child {
+  border-bottom: none;
+}
+
+.note-list .note-item .note-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.note-list .note-item .note-body {
+  margin-top: 10px;
+}
+
+.note-list .note-item .note-actions {
+  margin-top: 10px;
+}
+
+.note-list .note-item .note-actions button {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
